@@ -33,15 +33,11 @@
     "build": "npm run build:umd && npm run build:es",
     "build:umd": "npm run clean:umd && cross-env NODE_ENV=production webpack",
     "build:es": "npm run clean:es && tsc -p tsconfig.es.json",
-    "build:es:cache": "tsc -p tsconfig.es.json",
-    "prebuild:wasm": "rm -f wasm_src/lux_sign.wasm && make wasm_src/lux_sign.wasm",
-    "build:wasm": "node scripts/build-wasm.js",
     "ci": "jest --verbose test/*.spec.ts",
     "ci:umd": "npm run build:umd && jest --verbose test-umd/*.spec.ts --env=./test-umd/jsdom-env-hack.js",
     "clean:umd": "rimraf -rf ./umd",
     "clean:es": "rimraf -rf ./es",
-    "clean:cjs": "rimraf -rf ./cjs",
-    "prepublishOnly": "npm run build"
+    "clean:cjs": "rimraf -rf ./cjs"
   },
   "files": [
     "umd",
