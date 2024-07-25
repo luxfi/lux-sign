@@ -1,6 +1,6 @@
 {
-  "name": "@luxfi/lux-sign",
-  "version": "0.3.3",
+  "name": "@luxwallet/lux-sign",
+  "version": "1.8.11",
   "publishConfig": {
     "access": "public"
   },
@@ -67,5 +67,6 @@
     "webpack-cli": "^4.10.0",
     "webpack-merge": "^5.8.0"
   },
-  "gitHead": "5b64228a1e95d5008cb8b0eda3a51bcf48c10bbf"
+  "author": "",
+  "license": "ISC"
 }
