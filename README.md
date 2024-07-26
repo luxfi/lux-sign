@@ -1,13 +1,13 @@
-# @luxfi/lux-sign
+# @luxwallet/lux-sign
 
 ## Getting Started
 
 install by `npm`, `yarn` etc
 
 ```bash
-npm i -S @luxfi/lux-sign
+npm i -S @luxwallet/lux-sign
 # or
-yarn add @luxfi/lux-sign
+yarn add @luxwallet/lux-sign
 ```
 
 ## APIs
@@ -17,7 +17,7 @@ yarn add @luxfi/lux-sign
 For every use cases, we provide two kinds of implementations: by Javascript and by WebAssembly. for example:
 
 ```js
-import * as SignWasm from '@luxfi/lux-sign/es/sign-wasm-lux'
+import * as SignWasm from '@luxwallet/lux-sign/es/sign-wasm-lux'
 ```
 
 ## Development
